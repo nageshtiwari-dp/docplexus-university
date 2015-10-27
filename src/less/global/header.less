@@ -5,21 +5,17 @@ header.global, header.global-new, header.global.slim {
 
     padding: 0;
     border: 0 none;
-    background-color: @color-primary;
+    background-color: @white;
     margin-bottom: 0;
     transition: all .2s ease-in;
     box-shadow: none;
     border-radius: 0 !important;
 
-    &:hover {
-        background-color: fadeout(@color-primary, 20%);
-    }
-
     > nav {
         .ionisx-container();
 
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 11px;
+        padding-bottom: 11px;
 
         h1.logo {
             margin: 0 30px 0 0;
@@ -31,7 +27,7 @@ header.global, header.global-new, header.global.slim {
             }
 
             a {
-                .size(@logo-img-width, 36px);
+                .size(@logo-img-width, 40px);
                 .text-hide();
 
                 background-image: url(@logo-img-path);
@@ -39,7 +35,7 @@ header.global, header.global-new, header.global.slim {
                 background-repeat: no-repeat;
 
                 @media (max-width: @screen-xs-max) {
-                    .size(@logo-sm-img-width, 36px);
+                    .size(@logo-sm-img-width, 25px);
 
                     background-image: url(@logo-sm-img-path);
                 }
