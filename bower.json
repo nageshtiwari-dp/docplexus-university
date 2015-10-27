@@ -5,6 +5,7 @@
   "description": "Open edX theme for IONISx",
   "license": "AGPL",
   "dependencies": {
+    "jquery": "~1.9.1",
     "bootstrap": "~3.3.0",
     "font-awesome": "~4.3.0"
   }
