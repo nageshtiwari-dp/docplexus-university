@@ -1,19 +1,19 @@
 {
-  "name": "edx-theme",
+  "name": "dp-university",
   "private": true,
-  "description": "Open edX theme for IONISx",
+  "description": "Open edX theme for Docplexus University",
   "repository": {
     "type": "git",
-    "url": "git://github.com/IONISx/edx-theme.git"
+    "url": "git://github.com/nageshtiwari-dp/dp-university.git"
   },
   "scripts": {
     "test": "grunt test"
   },
   "license": "AGPL",
   "bugs": {
-    "url": "https://github.com/IONISx/edx-theme/issues"
+    "url": "https://github.com/nageshtiwari-dp/dp-university/issues"
   },
-  "homepage": "https://github.com/IONISx/edx-theme",
+  "homepage": "https://github.com/nageshtiwari-dp/dp-university",
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-contrib-less": "1.0.1",

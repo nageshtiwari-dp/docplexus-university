@@ -1,7 +1,7 @@
 {
   "name": "edx-theme",
   "private": true,
-  "homepage": "https://github.com/IONISx/edx-theme",
+  "homepage": "https://github.com/nageshtiwari-dp/dp-university",
   "description": "Open edX theme for IONISx",
   "license": "AGPL",
   "dependencies": {
