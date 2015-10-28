@@ -1,3 +1,4 @@
+.courses-container{ max-width: 1170px; }
 .home .courses-container .courses .courses-listing .courses-listing-item{
             .make-xs-column(12);
             .make-sm-column(6);
@@ -8,6 +9,12 @@
             text-align: left;
             padding: 15px;    
             max-height: none;
+}
+
+@media screen and (min-width: 980px){
+  .home .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
+          clear: none;
+  }
 }
 .courses-container .courses .course .course-image .cover-image{
   padding: 3px;
