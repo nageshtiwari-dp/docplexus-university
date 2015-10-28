@@ -40,22 +40,22 @@
                     color: @white;
 
                     h1 {
-                        font: inherit;
                         font-size: @font-size-h1;
-                        font-weight: 500;
+                        font-weight: 400;
                         color: inherit;
                         text-shadow: none;
                         text-transform: none;
-                        margin: 0;
+                        margin: 0px 0px 8px;
                     }
 
                     h2 {
-                        font: inherit;
+                        font-style: normal;
                         font-size: @font-size-h4;
-                        color: inherit;
+                        color: #c2e2f5;
                         text-shadow: none;
                         text-transform: none;
                         margin: 0;
+                        font-weight: 400;
                     }
                 }
             }
@@ -127,12 +127,13 @@
                 box-shadow: none;
                 background: none;
                 border-radius: 0;
-                background-color: @white;
-                border: 1px solid @white;
+                background-color: #f6f6f6;
+                border: 1px solid #f6f6f6;
+                margin-bottom: 0px;
+                color: #929191;
 
                 &:hover {
-                    box-shadow: none;
-                    border-color: @color-primary;
+                    box-shadow: 0 5px 10px rgba(0,0,0,.15);
                 }
 
                 .inner-wrapper {

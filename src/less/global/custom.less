@@ -1,8 +1,53 @@
-.courses-container .courses .course .course-info .course-title{
-	color: #222222;
+.home .courses-container .courses .courses-listing .courses-listing-item{
+            .make-xs-column(12);
+            .make-sm-column(6);
+            .make-md-column(6);
+            .make-lg-column(4);
+            margin: 0;
+            display: block;
+            text-align: left;
+            padding: 15px;    
+            max-height: none;
+}
+.courses-container .courses .course .course-image .cover-image{
+  padding: 3px;
+}
+.courses-container .courses .course:hover .cover-image:before, .courses-container .courses .course:focus .cover-image:before{
+      -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0.6;
+}
+.courses-container .courses .course:hover .cover-image .learn-more, .courses-container .courses .course:focus .cover-image .learn-more{
+      -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 1;
 }
 
+.courses-container .courses .course .course-info .course-name{
+    margin-top: 10px;
 
+    .course-organization{
+      font-family: @font-family-sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      color: #222222;
+    }
+    .course-code {
+      font-family: @font-family-sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: #646464;
+    }
+    .course-title  {
+      font-weight: 500;
+      font-size: 15px;
+      color: #1A69EF;
+      margin: 5px 0 15px 0;
+      height: 92px;
+    }
+}
 
 
 
@@ -50,7 +95,6 @@ body #footer i:hover, body #footer #toplink i:hover {
 
 #footer a {
     color: #949494;
-    font-family: Bitter, "Times New Roman", Times, serif;
     font-kerning: auto;
     text-decoration: none;
 }
