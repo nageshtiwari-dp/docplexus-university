@@ -1,8 +1,8 @@
 {
-  "name": "edx-theme",
+  "name": "dp-university",
   "private": true,
   "homepage": "https://github.com/nageshtiwari-dp/dp-university",
-  "description": "Open edX theme for IONISx",
+  "description": "Open edX theme for Docplexus University",
   "license": "AGPL",
   "dependencies": {
     "jquery": "~1.9.1",
